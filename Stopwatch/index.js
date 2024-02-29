@@ -39,5 +39,4 @@ function update() {
     seconds = String(seconds).toString().padStart(2, 0);
     milliseconds = String(milliseconds).toString().padStart(2, 0);
     display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}`;
-
 }
